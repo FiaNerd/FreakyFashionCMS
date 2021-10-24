@@ -1,0 +1,84 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    Layout = null;
+}
+
+@* the fun starts here *@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <title>Freaky Fashion</title>
+</head>
+
+<body>
+    <header>
+        <div class="headerContainer">
+            <img class="logo" src="" Logo FF" />
+
+            <div class="topnav">
+                <a class="home-link" href="#">Home</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        @RenderBody();
+    </main>
+
+    <footer>
+        <div class="items">
+            <span>Gratis frakt och retur</span>
+            <span>Expressfrakt</span>
+            <span>Säkra betalningar</span>
+            <span>Nyhter varje dag</span>
+        </div>
+
+        <div class="footer-container">
+            <div class="grid-item">
+                <h4>Shopping</h4>
+                <ul>
+                    <li>Vinterjackor</li>
+                    <li>Pufferjackor</li>
+                    <li>Kappor</li>
+                    <li>Trenchcoats</li>
+                </ul>
+            </div>
+
+            <div class="grid-item">
+                <h4>Shopping</h4>
+                <ul>
+                    <li>Vinterjackor</li>
+                    <li>Pufferjackor</li>
+                    <li>Kappor</li>
+                    <li>Trenchcoats</li>
+                </ul>
+            </div>
+
+            <div class="grid-item">
+                <h4>Shopping</h4>
+                <ul>
+                    <li>Vinterjackor</li>
+                    <li>Pufferjackor</li>
+                    <li>Kappor</li>
+                    <li>Trenchcoats</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-copy-right">
+            <p>&copy; Copyright 2021 FreakyFashion</p>
+        </div>
+    </footer>
+</body>
+</html>

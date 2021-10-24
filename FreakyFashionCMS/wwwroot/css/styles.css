@@ -1,0 +1,147 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: 400;
+}
+
+/*header*/
+.header-container{
+    display:grid;
+    position: relative;
+}
+.logo{
+    position: absolute;
+}
+.topnav {
+    background-color: #000000;
+    height: 10em;
+}
+
+.home-link {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.heroContainer {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-gap: 30px 40px;
+    position: relative;
+    width: 100%;
+    justify-content:center;
+    margin-top: 2em;
+}
+
+.info-text {
+    position:absolute,
+        
+}
+
+.btn-container{
+    margin-top: 5em;
+}
+
+.btn {
+    display:grid;
+   height: 3em;
+   width: 6.7em;
+   font-size: 1.2rem;
+   font-weight: 700;
+   background-color: #fdfdfd;
+   border: 1px solid #000000;
+   margin: auto;
+   align-items: center;
+}
+
+    .btn:active,
+    .btn:focus,
+    .btn:hover {
+        background-color: #402928;
+        color: #fdfdfd;
+    }
+
+.hero {
+    display: grid;
+    justify-items: center;
+}
+
+.heroTitle {
+    position: absolute;
+    color: #dddddd;
+    margin-top: 3.3em;
+    font-size: 2.2rem;
+    background-color: #0000008c;
+    padding: 0.7em 5em;
+    letter-spacing: 2px;
+}
+
+.heroText {
+    position: absolute;
+    color: #dddddd;
+    font-weight: 100;
+    margin-top: 6.78em;
+    font-size: 1.62rem;
+    letter-spacing: 2px;
+   
+}
+
+.heroImage {
+    object-fit: cover;
+/*    object-fit: contain;*/
+    width: 100%;
+    height: 30em;
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    opacity: 0.9;
+    background-color: #c09e87;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 50px 70px;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-item {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+ul{
+    list-style-type: none; 
+}
+
+.footer-copy-right {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
