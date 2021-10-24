@@ -16,11 +16,19 @@ body {
 }
 
 /*header*/
-
-.topnav{
-    background-color: #000000;
+.header-container{
+    display:grid;
+    position: relative;
 }
-.home-link a {
+.logo{
+    position: absolute;
+}
+.topnav {
+    background-color: #000000;
+    height: 10em;
+}
+
+.home-link {
     color: #dddddd;
     text-decoration: none;
 }
