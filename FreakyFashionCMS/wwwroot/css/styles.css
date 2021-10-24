@@ -125,20 +125,56 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 200px);
     justify-content: space-evenly;
-    margin-top: 1em;
+    margin-top: 1.3em;
+    color: #fdfdfd;
+}
+
+.fas {
+    color: #fdfdfd;
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+.freeReturn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-left: 1em;
+    font-size: 1rem;
+}
+
+.express {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-left: 1em;
+    font-size: 1rem;
+}
+
+.safePay {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-left: 1em;
+    font-size: 1rem;
+}
+
+.news {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-left: 1em;
+    font-size: 1rem;
 }
 
 .footer-container {
     display: grid;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, 178px);
     grid-gap: 50px 70px;
-    align-items: center;
-    justify-items: center;
+    /*justify-items: center;*/
+    margin-left: 12.8em;
 }
 
 .grid-item {
     padding-top: 1em;
     padding-bottom: 1em;
+    color: #fdfdfd;
 }
 
 ul{
@@ -151,4 +187,5 @@ ul{
     justify-content: center;
     align-items: center;
     margin-bottom: 0.5em;
+    color: #fdfdfd;
 }
