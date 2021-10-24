@@ -67,6 +67,7 @@ body {
    border: none;
    margin: auto;
    align-items: center;
+   cursor: pointer;
 }
 
     .btn:active,

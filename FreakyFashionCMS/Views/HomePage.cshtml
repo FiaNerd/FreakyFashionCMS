@@ -6,29 +6,4 @@
 }
 
 
-
-@{
-    var image = Model.Value<IPublishedContent>("heroImage");
-}
-
-<div class="heroContainer">
-    <div class="info-text">
-        <h2>Lorem ipsum dolor</h2>
-        <span>
-            Sit amet consectetur adipisicing elit. Maxime mollitia,
-            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-            optio, eaque rerum! Provident similique accusantium nemo autem.
-        </span>
-
-        <div class="btn-container">
-        <button class="btn">Enter site</button>
-        </div>
-    </div>
-
-    <div class="hero">
-        <img class="heroImage" src="@image.Url()" alt="image hero" />
-        <h1 class="heroTitle">@Model.Value("heroHeading")</h1>
-        <h3 class="heroText">@Model.Value("heroMessage")</h3>
-    </div>
-</div>
+@await Html.PartialAsync("Components/Hero")
